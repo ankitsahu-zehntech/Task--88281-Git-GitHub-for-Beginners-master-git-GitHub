@@ -502,7 +502,7 @@ video{
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 .btn-13{
-    border-radius: 20px;
+    border-radius: 5px;
     color: black;
     background-color: white;
     width: 160px;
@@ -930,10 +930,11 @@ video{
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
+    text-align: left;
 }
 
 .c19-links, .c19-social-media {
-    margin-right: 20px; 
+    margin-right: 0px;padding: 0;
 }
 
 .c19-links ul, .c19-social-media ul {
