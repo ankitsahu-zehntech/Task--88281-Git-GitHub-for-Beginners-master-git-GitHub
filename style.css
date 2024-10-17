@@ -42,6 +42,7 @@ body{
       }
      
      
+     
       .carousel-caption{
         position: absolute;
         top: 50%;
@@ -446,7 +447,19 @@ video{
         width: 140px;
         height: 38px ;
         font-size: 14px;
+        
     }
+}
+.btn-c1{
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+
 }
 .btn {
     border-radius: 20px;
@@ -502,7 +515,7 @@ video{
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 .btn-13{
-    border-radius: 5px;
+    border-radius: 20px;
     color: black;
     background-color: white;
     width: 160px;
@@ -869,10 +882,12 @@ video{
     justify-content: space-between;
     padding: 20px;
     background-color: #3D4C6F;
+    height: 380px;
 }
 
 .c19-signup-box {
     flex: 1; 
+   padding: 50px;
     max-width: 50%;
     margin-right: 20px;
     color: #fff;
@@ -880,7 +895,7 @@ video{
 
 .c19-box {
     background-color: #4a607c; 
-    padding: 20px;
+    padding: 50px;
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -900,16 +915,18 @@ video{
 }
 
 .c19-form-control {
-    flex: 1;
+    flex: 0 0 60%;
     padding: 10px;
+    
     border-radius: 5px;
     border: 1px solid #ccc;
     margin-right: 10px;
 }
 
 .c19-btn {
-    flex: 1; 
+    flex: 0 0 40%; 
     padding: 10px;
+    
     border-radius: 5px;
     background-color: #4CAF50;
     color: white;
@@ -924,17 +941,21 @@ video{
 .c19-sidebar {
     width: 50%;
     color: #fff;
+    margin-left: 50px;
+    margin-top: 40px;
 }
 
 .c19-sidebar-headings {
     margin-top: 10px;
+    
     display: flex;
-    justify-content: space-between;
-    text-align: left;
+
 }
 
 .c19-links, .c19-social-media {
-    margin-right: 0px;padding: 0;
+    flex: 1 1 100%;
+    margin-right: 0;
+    padding:  0 40px 0 40px;
 }
 
 .c19-links ul, .c19-social-media ul {
@@ -945,7 +966,9 @@ video{
 .c19-links li, .c19-social-media li {
     margin-bottom: 10px;
 }
-
+.c19-social-media li{
+    padding-bottom: 20px;
+}
 .c19-links a, .c19-social-media a {
     color: #fff;
     text-decoration: none;
@@ -958,14 +981,18 @@ video{
 @media (max-width: 768px) {
     .c19 {
         flex-direction: column;
+        height: 700px;
     }
 
     .c19-signup-box {
+        flex: 1 1 100%;
         margin-right: 0;
         max-width: 100%; 
     }
 
     .c19-sidebar {
+        flex: 1 1 100%;
+            margin-top: 0px;
         width: 100%; 
     }
 
