@@ -1,5 +1,5 @@
 # Task--88281-Git-GitHub-for-Beginners-master-git-GitHub
-in this repo i have i have pushed my first task of html,css and bootstrap.
+In this repo i have i have pushed my first task of html,css and bootstrap.
 the main motive of this task is to implement the  git commands to push code and use of github.
 in this task we have implemented many git command which is applied according to flow which is follows
 flow:-
