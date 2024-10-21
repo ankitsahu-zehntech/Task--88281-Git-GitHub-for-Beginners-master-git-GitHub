@@ -1,10 +1,20 @@
+
 body{
     font-family: Arial,  sans-serif;
     overflow-x: hidden;
+    margin: 0;
 }
 @media(max-width:768px){
     body{
         overflow-x: hidden;
+        margin: 0;
+        width: 100%;
+    }
+}
+@media(max-width:667px) {
+    body{
+        overflow-x: hidden;
+        margin: 0;
     }
 }
 .c1 {
@@ -87,10 +97,6 @@ body{
  
 
 
-.v-c6{
-  border-radius: 20px;
-}
-
 
 
 .fa-comments {
@@ -138,7 +144,7 @@ body{
 .c4 {
     padding-top: 50px;
     text-align: center; 
-    margin: 20px; 
+    
 }
 
 .c4 h1 {
@@ -203,6 +209,13 @@ body{
     }
 }
 
+.v-c6{
+    border-radius: 20px;
+  }
+@media(max-width:768px){
+
+}
+  
 .c6{
     display: flex;
     justify-content: center;
@@ -211,10 +224,16 @@ body{
 }
 video{
     max-width: 70%;
-    height: auto;
+   
 
 }
+@media(max-width:768px){
+    .c6{
+height: 30vh;
 
+    }
+}
+  
 .c7 {
     display: flex;
     justify-content: space-between;
@@ -372,6 +391,7 @@ video{
 .c10 {
     display: flex;
     align-items: center; 
+    padding-left: 60px;
     gap: 20px; 
     margin-bottom: 40px;
     width: 100%;
@@ -392,6 +412,7 @@ video{
     flex-direction: column;
     text-align: left;
     padding-left: 20px; 
+    padding-right: 20px;
     justify-content: center; 
 }
 
@@ -609,12 +630,14 @@ video{
 @media (max-width: 768px) {
     .c13 {
         flex-direction: column;
+        width: 100%;
     }
     .request-box {
         width: 80%; 
         margin-bottom: 20px; 
         padding-left: 50px;
     }
+    
     .frm {
         width: 100%; 
     }
@@ -865,7 +888,8 @@ video{
     .c16{
        
         max-width: 80%;
-        margin: 0 auto;
+        margin-right: 0;
+        margin-left: 0;
     }
     
 }
@@ -1085,7 +1109,7 @@ video{
 
     .c19-sidebar {
         flex: 1 1 100%;
-            margin-top: 0px;
+        margin-top: 0px;
         width: 100%; 
     }
 
